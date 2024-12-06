@@ -18,6 +18,7 @@ body {
 }
 
 .App {
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,15 +26,14 @@ body {
   height: 100vh;
   width: 100%;
   max-width: 500px;
-  border: 1px solid mediumblue;
-  margin: auto;
+  border: 1px solid #535353;
 }
 
 header {
   width: 100%;
   padding: 0 0.25em;
-  background-color: mediumblue;
-  color: aliceblue;
+  background-color: #535353;;
+  color: #FFAC4A;;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,8 +52,8 @@ main {
 footer {
   width: 100%;
   padding: 0.25em;
-  background-color: mediumblue;
-  color: aliceblue;
+  background-color: #535353;;
+  color: #FFAC4A;
   display: grid;
   place-content: center;
 }
@@ -107,13 +107,13 @@ ul li::before {
   min-width: 48px;
   height: 36px;
   font-size: 1rem;
-  color: steelblue;
+  color: #535353;
   cursor: pointer;
 }
 
 .item svg:focus,
 .item svg:hover {
-  color: red;
+  color: #FFAC4A;
   outline: none;
 }
 
@@ -148,8 +148,8 @@ button {
   border-radius: 0.25rem;
   padding: 0.5rem;
   font-size: 1rem;
-  background-color: aliceblue;
-  color: mediumblue;
+  background-color: #FFAC4A;;
+  color: #535353;;
   cursor: pointer;
 }
 
@@ -182,4 +182,14 @@ button:hover {
   padding: 0.25rem;
   border-radius: 0.25rem;
   outline: none;
+}
+
+.banner {
+  background-image: url("/public/shopping-background.webp");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
+  height: 100%;
 }
